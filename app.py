@@ -6,7 +6,7 @@ import nltk
 
 # Download stopwords if not already present
 nltk.download('stopwords')
-nltk.download('punkt')
+nltk.download('punkt_tab')
 
 # Streamlit UI
 st.title("AI Resume Screening & Ranking System")
