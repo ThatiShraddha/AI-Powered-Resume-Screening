@@ -1,6 +1,12 @@
 import streamlit as st
 from resume_parser import extract_text, preprocess
 from ranking import rank_resumes
+import streamlit as st
+import nltk
+
+# Download stopwords if not already present
+nltk.download('stopwords')
+nltk.download('punkt')
 
 # Streamlit UI
 st.title("AI Resume Screening & Ranking System")
